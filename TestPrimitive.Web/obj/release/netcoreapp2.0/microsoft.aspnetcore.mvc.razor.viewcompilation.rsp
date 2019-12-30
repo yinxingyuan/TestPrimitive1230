@@ -1,0 +1,16 @@
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web
+--output-path=obj\release\netcoreapp2.0\
+--application-name=TestPrimitive.Web
+--content-root=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Product\Create.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Product\Details.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Product\Edit.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Product\Index.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Product\_DataList.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Product\_Search.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Shared\Error.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Shared\_DeleteDialog.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Shared\_Layout.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\_ViewImports.cshtml
+--file=D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Web\Views\_ViewStart.cshtml

@@ -1,0 +1,14 @@
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Daos.deps.json
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Daos.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Daos.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Daos.Interfaces.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Entities.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Daos.Interfaces.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\bin\release\netstandard2.0\TestPrimitive.Entities.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.csprojAssemblyReference.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.csproj.CoreCompileInputs.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.AssemblyInfoInputs.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.AssemblyInfo.cs
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.csproj.CopyComplete
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Daos\obj\release\netstandard2.0\TestPrimitive.Daos.pdb

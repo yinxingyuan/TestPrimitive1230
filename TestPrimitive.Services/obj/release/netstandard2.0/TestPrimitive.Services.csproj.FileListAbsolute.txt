@@ -1,0 +1,16 @@
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Services.deps.json
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Services.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Services.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Daos.Interfaces.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Entities.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Services.Interfaces.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Daos.Interfaces.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Entities.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\bin\release\netstandard2.0\TestPrimitive.Services.Interfaces.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.csprojAssemblyReference.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.csproj.CoreCompileInputs.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.AssemblyInfoInputs.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.AssemblyInfo.cs
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.csproj.CopyComplete
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services\obj\release\netstandard2.0\TestPrimitive.Services.pdb

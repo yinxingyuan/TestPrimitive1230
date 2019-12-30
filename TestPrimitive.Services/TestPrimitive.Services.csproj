@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TestPrimitive.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MetaShare.Common.Core" Version="1.0.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\TestPrimitive.Daos.Interfaces\TestPrimitive.Daos.Interfaces.csproj" />
+
+    <ProjectReference Include="..\TestPrimitive.Entities\TestPrimitive.Entities.csproj" />
+
+    <ProjectReference Include="..\TestPrimitive.Services.Interfaces\TestPrimitive.Services.Interfaces.csproj" />
+
+  </ItemGroup>
+
+</Project>

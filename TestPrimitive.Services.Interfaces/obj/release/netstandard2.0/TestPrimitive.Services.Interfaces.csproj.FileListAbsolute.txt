@@ -1,0 +1,12 @@
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\bin\release\netstandard2.0\TestPrimitive.Services.Interfaces.deps.json
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\bin\release\netstandard2.0\TestPrimitive.Services.Interfaces.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\bin\release\netstandard2.0\TestPrimitive.Services.Interfaces.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\bin\release\netstandard2.0\TestPrimitive.Entities.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\bin\release\netstandard2.0\TestPrimitive.Entities.pdb
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.csprojAssemblyReference.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.csproj.CoreCompileInputs.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.AssemblyInfoInputs.cache
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.AssemblyInfo.cs
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.csproj.CopyComplete
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.dll
+D:\MDAXIAN\MDDPlatformWeb\code\Olivia_6YwPs9\TestPrimitive\TestPrimitive.Services.Interfaces\obj\release\netstandard2.0\TestPrimitive.Services.Interfaces.pdb

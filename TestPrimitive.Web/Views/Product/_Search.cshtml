@@ -1,0 +1,14 @@
+@using TestPrimitive.Web.HtmlExtensions
+@using TestPrimitive.Web.Models
+
+@model SearchModel
+<div class="search-container">
+    @using (Html.BeginForm("Search", "Product", FormMethod.Post, new {data_ajax = "true", data_ajax_method = "POST", data_ajax_mode = "replace", data_ajax_update = "#Product_DataList", name = "Product_Search", id = "Product_Search"}))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.Pager.PageSize)
+
+        <input class="m_btn" type="submit" value="Search"/>
+    }
+</div>
+

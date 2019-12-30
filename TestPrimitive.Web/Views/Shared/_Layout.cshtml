@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
+	
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/lib/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="~/lib/DateTimePicker/jquery.datetimepicker.css" />
+    <link rel="stylesheet" href="~/css/fonts-styles.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" />*@
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <link rel="stylesheet" href="~/css/common.css" />
+    <link rel="stylesheet" href="~/css/custom-style.css" />
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="~/lib/microsoft.jquery.unobtrusive.ajax/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/dateFormat.js" asp-append-version="true"></script>
+    <script src="~/js/PagerForHtmlHelper.js" asp-append-version="true"></script>
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <script src="~/js/common.js" asp-append-version="true"></script>
+	@RenderSection("Links", false)
+
+	<script>
+	    $(function () {
+	        metaShare.basic.prototype.clickLight();
+		        changeSize();
+		        $(window)
+		            .resize(function() {
+		                changeSize();
+		            });
+		        function changeSize() {
+		            var height = $("#nav").height();
+	                if (document.body.clientWidth < 768) {
+	                    $("#main-menu").css('margin-top', height - 17);
+	                } else {
+	                    $("#main-menu").css('margin-top', 0);
+	                }
+	            }
+	        //metaShare.basic.prototype.footerPosition();
+	        //$(window).resize(metaShare.basic.prototype.footerPosition);
+	    });
+	</script>
+
+</head>
+<body>
+<div id="wrapper" class="m_deepblue">
+    <nav class="navbar navbar-default top-navbar" role="navigation" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="@(this.Url.Action("Index", new { Controller="Product",area=""}))">
+                <img src="~/Images/logo.png" class="m_left" />&nbsp;
+                <span>TestPrimitive</span>
+            </a>
+            <div id="sideNav">
+                <i class="icon-right-arrow"></i>
+            </div>
+        </div>
+
+               <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                @if (this.Context.User.Identity.IsAuthenticated)
+                {
+                    
+                    <a href="##" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Hi,@this.Context.User.Identity.Name <i class="icon-down-arrow"></i></a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a><i></i> User Profile</a></li>
+                        <li><a><i></i> Settings</a></li>
+                        <li class="divider"></li>
+                        <li>@*<a href="@(this.Url.Action("Logout", "Account",new {redirectUrl = Request.Url}))"><i></i> LOG OUT</a>*@</li>
+                    </ul>
+                }
+                else
+                {
+                    @*<a href="@(this.Url.Action("Login", "Account",new {redirectUrl = Request.Url}))" class="dropdown-toggle">LOG IN</a>*@
+                }
+                </li>
+            </ul>
+    </nav>
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu" style="margin-bottom: 20px;">
+	                <li data-id="Product">@Html.ActionLink("Product", "Index", new { Controller="Product",area=""})</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="page-wrapper">
+        <div id="page-inner" style="margin:0;">
+            @RenderBody()
+            @RenderSection("scripts", required: false)
+            <footer>
+                <p></p>
+            </footer>
+       </div>
+    </div>
+</div>
+</body>
+</html>
+
+
