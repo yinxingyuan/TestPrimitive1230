@@ -1,0 +1,33 @@
+@using MetaShare.Common.Core.Presentation
+@using Test1225.Entities
+@using Test1225.Web.HtmlExtensions
+@using Test1225.Web.Models
+
+@model IndexViewModel<Test1225.Entities.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout  = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="m_title_box">
+    <ol>
+        <li data-id="Product">
+            <a href="#">Product</a><i class="icon-arrowright"></i>
+        </li>
+        <li data-id="Index">Index</li>
+    </ol>
+    <div class="m_title_action">
+        <a class="m_btn" href="@(this.Url.Action("Create", "Product", null))">New</a>
+    </div>
+</div>
+<div class="panel panel-default">
+    
+    <div class="panel-heading">Product</div>
+    <div class="panel-body">
+            @Html.Partial(Url.Content("_Search"), Model.SearchModel)
+    <div class="table-responsive" id="Product_DataList">
+            @Html.Partial(Url.Content("_DataList"), Model)
+    </div>
+    </div>
+</div>
+@this.Html.Partial("_DeleteDialog")

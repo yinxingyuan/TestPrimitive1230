@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>1.0.00001</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1F2E67D-4B70-4BD0-A2D9-3287D39A7D44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test1225.Services.Tests</RootNamespace>
+    <AssemblyName>Test1225.Services.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Core">
+      <HintPath>..\CommonLib\Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+
+    <Compile Include="Common\CommonServiceTest.cs" />
+
+    <Compile Include="Properties\AssemblyInfo.cs" />
+
+    <Compile Include="ProductServiceTest.cs" />
+
+  </ItemGroup>
+  <ItemGroup>
+
+    <ProjectReference Include="..\Test1225.Services\Test1225.Services.csproj">
+      <Project>{3E37A7B9-057D-48D1-8B0E-39792CBED937}</Project>
+      <Name>Test1225.Services</Name>
+    </ProjectReference>
+
+    <ProjectReference Include="..\Test1225.Services.Interfaces\Test1225.Services.Interfaces.csproj">
+      <Project>{E87FDC66-CFF4-43E7-B97A-EC49C648E9F6}</Project>
+      <Name>Test1225.Services.Interfaces</Name>
+    </ProjectReference>
+
+    <ProjectReference Include="..\Test1225.Entities\Test1225.Entities.csproj">
+      <Project>{DACD149C-221C-4034-847C-B92E44801B67}</Project>
+      <Name>Test1225.Entities</Name>
+    </ProjectReference>
+
+    <ProjectReference Include="..\Test1225.TestData\Test1225.TestData.csproj">
+      <Project>{8F8E008D-1486-4E5D-A996-B4C3D1097A35}</Project>
+      <Name>Test1225.TestData</Name>
+    </ProjectReference>
+
+    <ProjectReference Include="..\Test1225.Daos.Mocks\Test1225.Daos.Mocks.csproj">
+      <Project>{CECEF74B-ED26-44BE-B34D-998E1DAE57E3}</Project>
+      <Name>Test1225.Daos.Mocks</Name>
+    </ProjectReference>
+
+  </ItemGroup>
+ <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

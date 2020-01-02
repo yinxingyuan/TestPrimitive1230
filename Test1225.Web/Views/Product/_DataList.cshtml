@@ -1,0 +1,43 @@
+@using MetaShare.Common.Core.Presentation
+@using Test1225.Entities
+@using Test1225.Web.HtmlExtensions
+@using Test1225.Web.Models
+
+@model IndexViewModel<Product>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+		<th class="text-left">Name</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (Model.TargetPager != null && Model.TargetPager.Datas != null)
+            {
+            foreach (Test1225.Entities.Product productItem in Model.TargetPager.Datas)
+                        {
+                <tr>
+			<td  class="text-left">
+				@Html.DisplayFor(modelItem => productItem.Name)
+			</td>
+                    <td>
+                        @Html.ActionLink(" ", "Details", new { id = productItem.Id, Controller = "Product", area = ""}, new {@class="m_details", title="Details" })
+                        @Html.ActionLink(" ", "Edit", new { id = productItem.Id, Controller = "Product", area = ""}, new {@class="m_edit", title="Edit" })
+                        @Html.ActionLink(" ", "#", "#", new {href = "javascript:void(0);",@class="m_delete", title="Delete", onclick = " javascript:metaShare.basic.prototype.deleteTableColumn(this,'" + productItem.Id + "','" + Url.Action("Delete",new {Controller = "Product", area = ""}) + "'); return false; "})
+                    </td>
+                </tr>
+            }
+            }
+            </tbody>
+        </table>
+
+
+        <div class="UserPagerDiv text-center">
+    @{
+        object conditions = new
+        {
+            Name = Model.SearchModel != null ? Model.SearchModel.Name : "",
+        };
+    }
+        @Ajax.AjaxRenderPager(Model.TargetPager, "Search", "Product","Product_DataList", conditions)
+        </div>
